@@ -35,6 +35,17 @@ class ViewController: UIViewController {
         KostkaImage3.alpha = 0.5
         KostkaImage4.alpha = 0.5
         
+        //Dodanie funkcji shake
+        _ = becomeFirstResponder()
+        
+    }
+    override func becomeFirstResponder() -> Bool {
+        return true
+    }
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            SprawdzNacisniete(UIButton())
+        }
     }
     //kod który się wykona po naciśnięciu przycisku
     @IBAction func SprawdzNacisniete(_ sender: UIButton) {
@@ -68,7 +79,7 @@ class ViewController: UIViewController {
         //formatuj wyglad wyswietlaneg procenty bez przecinka
         let formattedProcent = Int(procent)
         //zmienna ktora wyswietla jaki wynik został wylosowany
-        let ileKostki = "Kostki mówią, że masz " + String(formattedProcent) + "% szansy zdać."
+        let ileKostki = "Kostki mówią, że masz \(String(formattedProcent)) % szansy zdać."
         //wyswietlanie sformatowanej zmiennej ileKostki w elemencie UI ileWypadlo
         ileWypadlo.text = ileKostki
         //zmienna która sprawdza % i wybiera tekst do wyświetlenia
