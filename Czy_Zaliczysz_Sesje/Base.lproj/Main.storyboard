@@ -136,6 +136,8 @@
                         <outlet property="KostkaImage3" destination="frq-hN-x9E" id="F9a-s9-J1Z"/>
                         <outlet property="KostkaImage4" destination="G1C-fh-WKb" id="m9F-X2-U8K"/>
                         <outlet property="ileWypadlo" destination="igm-uk-NOd" id="REU-5z-1y2"/>
+                        <outlet property="jezykAngielski" destination="NHw-ew-a7k" id="gWa-lX-QL9"/>
+                        <outlet property="jezyk_Polski" destination="Ngk-9b-DmN" id="1kM-1d-B8b"/>
                         <outlet property="wynikKostek" destination="IBY-xN-92L" id="mjy-5A-EXb"/>
                     </connections>
                 </viewController>
