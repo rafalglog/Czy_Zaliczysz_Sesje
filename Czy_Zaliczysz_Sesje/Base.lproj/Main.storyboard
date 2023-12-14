@@ -40,12 +40,14 @@
                                 <rect key="frame" x="75" y="700" width="242" height="53"/>
                                 <color key="backgroundColor" red="0.60789138080000005" green="0.1097165868" blue="0.12161641569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Sprawdź czy Zaliczysz Sesje"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Check if you will pass the session ">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="SprawdzNacisniete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y3O-D5-Tux"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uczyłeś Się?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBY-xN-92L">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have you studied?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBY-xN-92L">
                                 <rect key="frame" x="16" y="235" width="361" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="i46-rB-wh3"/>
@@ -54,7 +56,7 @@
                                 <color key="textColor" red="0.60789138080000005" green="0.1097165868" blue="0.12161641569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Co Kostki Ci Powiedzą?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igm-uk-NOd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What will the cubes tell you?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igm-uk-NOd">
                                 <rect key="frame" x="16" y="152" width="361" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="k0d-Sm-KzK"/>

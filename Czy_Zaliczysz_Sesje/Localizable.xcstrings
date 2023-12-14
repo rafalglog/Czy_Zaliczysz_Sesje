@@ -1,5 +1,5 @@
 {
-  "sourceLanguage" : "en",
+  "sourceLanguage" : "pl",
   "strings" : {
     "failMessage" : {
       "extractionState" : "manual",
@@ -18,6 +18,57 @@
         }
       }
     },
+    "Genius Alert!" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genius Alert!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uwaga Geniusz!"
+          }
+        }
+      }
+    },
+    "geniusztext" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You’re a genius! Go for a beer!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jesteś Geniuszem! Idź na piwo!"
+          }
+        }
+      }
+    },
+    "Goodadvice" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Good advice!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobra Rada!"
+          }
+        }
+      }
+    },
     "ileKostki" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -31,6 +82,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kostki mówią, że masz {PROCENT} % szansy zdać."
+          }
+        }
+      }
+    },
+    "ImGenius" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yes I know, I’m a genius!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak wiem, jestem geniuszem!"
           }
         }
       }
@@ -58,7 +126,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You probably made it"
+            "value" : "You probably will made it"
           }
         },
         "pl" : {

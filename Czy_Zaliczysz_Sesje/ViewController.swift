@@ -93,15 +93,17 @@ class ViewController: UIViewController {
     //Wyswietlenie informacji po wylosowaniu sześciu oczek na wystkich kostkach
         func geniusz(message: String) {
             DispatchQueue.main.async {
-                let alertController = UIAlertController(title: "Uwaga Geniusz!", message: message, preferredStyle: .alert)
-                alertController.addAction(UIAlertAction(title: "Tak wiem, jestem geniuszem", style: .default, handler: nil))
+                let titleAlert = NSLocalizedString("Genius Alert!", comment: "")
+                let alertController = UIAlertController(title: titleAlert, message: message, preferredStyle: .alert)
+                let _titleAnwser = NSLocalizedString("ImGenius", comment: "")
+                alertController.addAction(UIAlertAction(title: _titleAnwser, style: .default, handler: nil))
                 // Tutaj dodaj wywołanie, aby wyświetlić UIAlertController na ekranie
                 self.present(alertController, animated: true, completion: nil)
             }
         }
 
         if Int(sum) == Int(dicesSum) {
-            let geniusztext = "Jesteś Geniuszem! Idź na piwo!"
+            let geniusztext = NSLocalizedString("geniusztext", comment: "")
             geniusz(message: geniusztext)
         }
         
@@ -110,7 +112,8 @@ class ViewController: UIViewController {
     // funkcja do Wyświetlenia komunikatu na 4s w formie pop up,
     func displayInformationMessage(message: String) {
         DispatchQueue.main.async {
-            let alertController = UIAlertController(title: "Dobra Rada", message: message, preferredStyle: .alert)
+            let Goodadvice = NSLocalizedString("Goodadvice", comment: "")
+            let alertController = UIAlertController(title: Goodadvice, message: message, preferredStyle: .alert)
             //po usunieciu // z lini poniżej uruchomi się przycisk OK
             //alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             alertController.view.alpha = 0.5
