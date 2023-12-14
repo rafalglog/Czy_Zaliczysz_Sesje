@@ -87,17 +87,17 @@ class ViewController: UIViewController {
         ileWypadlo.text = ileKostki
         //zmienna która sprawdza % i wybiera tekst do wyświetlenia
         let successMessage = NSLocalizedString("successMessage", comment: "")
-                let failMessage = NSLocalizedString("failMessage", comment: "")
-                let textdowyswietlenia = procent >= 60  ? successMessage : failMessage
+        let failMessage = NSLocalizedString("failMessage", comment: "")
+        let textdowyswietlenia = procent >= 60  ? successMessage : failMessage
         //wyswietlanie sformatowanej zmiennej textdowyswietlenia w elemencie UI wynikKostek
         wynikKostek.text = textdowyswietlenia
         
     //Wyswietlenie informacji po wylosowaniu sześciu oczek na wystkich kostkach
         func geniusz(message: String) {
             DispatchQueue.main.async {
-                let titleAlert = NSLocalizedString("Genius Alert!", comment: "")
+                let titleAlert = NSLocalizedString("geniusAlert", comment: "")
                 let alertController = UIAlertController(title: titleAlert, message: message, preferredStyle: .alert)
-                let _titleAnwser = NSLocalizedString("ImGenius", comment: "")
+                let _titleAnwser = NSLocalizedString("imGenius", comment: "")
                 alertController.addAction(UIAlertAction(title: _titleAnwser, style: .default, handler: nil))
                 // Tutaj dodaj wywołanie, aby wyświetlić UIAlertController na ekranie
                 self.present(alertController, animated: true, completion: nil)
@@ -105,7 +105,7 @@ class ViewController: UIViewController {
         }
 
         if Int(sum) == Int(dicesSum) {
-            let geniusztext = NSLocalizedString("geniusztext", comment: "")
+            let geniusztext = NSLocalizedString("geniuszText", comment: "")
             geniusz(message: geniusztext)
         }
         
@@ -114,7 +114,7 @@ class ViewController: UIViewController {
     // funkcja do Wyświetlenia komunikatu na 4s w formie pop up,
     func displayInformationMessage(message: String) {
         DispatchQueue.main.async {
-            let Goodadvice = NSLocalizedString("Goodadvice", comment: "")
+            let Goodadvice = NSLocalizedString("goodAdvice", comment: "")
             let alertController = UIAlertController(title: Goodadvice, message: message, preferredStyle: .alert)
             //po usunieciu // z lini poniżej uruchomi się przycisk OK
             //alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))

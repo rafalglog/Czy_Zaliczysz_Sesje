@@ -14,9 +14,6 @@
 		B5E236DE2AF11CEF00EBF99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E236DC2AF11CEF00EBF99F /* Main.storyboard */; };
 		B5E236E02AF11CF100EBF99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E236DF2AF11CF100EBF99F /* Assets.xcassets */; };
 		B5E236E32AF11CF100EBF99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E236E12AF11CF100EBF99F /* LaunchScreen.storyboard */; };
-		B5E236EE2AF11CF100EBF99F /* Czy_Zaliczysz_SesjeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E236ED2AF11CF100EBF99F /* Czy_Zaliczysz_SesjeTests.swift */; };
-		B5E236F82AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E236F72AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITests.swift */; };
-		B5E236FA2AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E236F92AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +49,7 @@
 		B5E236DF2AF11CF100EBF99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5E236E22AF11CF100EBF99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5E236E92AF11CF100EBF99F /* Czy_Zaliczysz_SesjeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Czy_Zaliczysz_SesjeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5E236ED2AF11CF100EBF99F /* Czy_Zaliczysz_SesjeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Czy_Zaliczysz_SesjeTests.swift; sourceTree = "<group>"; };
 		B5E236F32AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Czy_Zaliczysz_SesjeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5E236F72AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Czy_Zaliczysz_SesjeUITests.swift; sourceTree = "<group>"; };
-		B5E236F92AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Czy_Zaliczysz_SesjeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +82,6 @@
 			children = (
 				B5E227702B2B10C100AB3E32 /* Localizable.xcstrings */,
 				B5E236D52AF11CEF00EBF99F /* Czy_Zaliczysz_Sesje */,
-				B5E236EC2AF11CF100EBF99F /* Czy_Zaliczysz_SesjeTests */,
-				B5E236F62AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITests */,
 				B5E236D42AF11CEF00EBF99F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,23 +108,6 @@
 				B5E2276E2B2B0C8400AB3E32 /* Info.plist */,
 			);
 			path = Czy_Zaliczysz_Sesje;
-			sourceTree = "<group>";
-		};
-		B5E236EC2AF11CF100EBF99F /* Czy_Zaliczysz_SesjeTests */ = {
-			isa = PBXGroup;
-			children = (
-				B5E236ED2AF11CF100EBF99F /* Czy_Zaliczysz_SesjeTests.swift */,
-			);
-			path = Czy_Zaliczysz_SesjeTests;
-			sourceTree = "<group>";
-		};
-		B5E236F62AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B5E236F72AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITests.swift */,
-				B5E236F92AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITestsLaunchTests.swift */,
-			);
-			path = Czy_Zaliczysz_SesjeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5E236EE2AF11CF100EBF99F /* Czy_Zaliczysz_SesjeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5E236FA2AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITestsLaunchTests.swift in Sources */,
-				B5E236F82AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

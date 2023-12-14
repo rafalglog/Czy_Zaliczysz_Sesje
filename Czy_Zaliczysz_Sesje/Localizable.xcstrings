@@ -18,7 +18,7 @@
         }
       }
     },
-    "Genius Alert!" : {
+    "geniusAlert" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -35,8 +35,7 @@
         }
       }
     },
-    "geniusztext" : {
-      "extractionState" : "manual",
+    "geniuszText" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -52,7 +51,7 @@
         }
       }
     },
-    "Goodadvice" : {
+    "goodAdvice" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -86,7 +85,7 @@
         }
       }
     },
-    "ImGenius" : {
+    "imGenius" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
