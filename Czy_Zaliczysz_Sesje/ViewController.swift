@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var wynikKostek: UILabel!
     @IBOutlet weak var ileWypadlo: UILabel!
     
+    @IBOutlet weak var jezykAngielski: UIImageView!
+    @IBOutlet weak var jezyk_Polski: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
