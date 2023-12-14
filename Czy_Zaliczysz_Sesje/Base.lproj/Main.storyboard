@@ -17,11 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V60-gD-Aa6">
-                                <rect key="frame" x="0.0" y="0.0" width="444.66666666666669" height="852"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PUWLOGO" translatesAutoresizingMaskIntoConstraints="NO" id="YUh-U7-ybo">
-                                <rect key="frame" x="76" y="42" width="339.66666666666669" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="GreenBackground" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V60-gD-Aa6">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="29g-Sl-vK7">
                                 <rect key="frame" x="187" y="302" width="218.66666666666663" height="120"/>
@@ -68,7 +65,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rafał Głogowski 163777" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="go4-kp-6H6">
-                                <rect key="frame" x="103.66666666666667" y="637" width="185.66666666666663" height="21"/>
+                                <rect key="frame" x="103.66666666666667" y="617" width="185.66666666666663" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="q0A-lg-7tR"/>
                                 </constraints>
@@ -76,14 +73,8 @@
                                 <color key="textColor" systemColor="systemYellowColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="English" translatesAutoresizingMaskIntoConstraints="NO" id="NHw-ew-a7k">
-                                <rect key="frame" x="284.66666666666669" y="749" width="79.333333333333314" height="91"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Polish" translatesAutoresizingMaskIntoConstraints="NO" id="Ngk-9b-DmN">
-                                <rect key="frame" x="16" y="755" width="161" height="79"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="79" id="Mpb-zu-h1M"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="PUWLOGO" translatesAutoresizingMaskIntoConstraints="NO" id="YUh-U7-ybo">
+                                <rect key="frame" x="16" y="33" width="339.66666666666669" height="128"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -101,12 +92,9 @@
                             <constraint firstItem="YUh-U7-ybo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="J6e-Uq-X8X"/>
                             <constraint firstItem="UBi-HL-Jv2" firstAttribute="bottom" secondItem="29g-Sl-vK7" secondAttribute="bottom" id="JyQ-hP-TS6"/>
                             <constraint firstItem="frq-hN-x9E" firstAttribute="bottom" secondItem="G1C-fh-WKb" secondAttribute="bottom" id="Nja-xB-c4E"/>
-                            <constraint firstItem="Ngk-9b-DmN" firstAttribute="centerY" secondItem="NHw-ew-a7k" secondAttribute="centerY" id="OSg-br-7Ku"/>
                             <constraint firstItem="29g-Sl-vK7" firstAttribute="trailing" secondItem="G1C-fh-WKb" secondAttribute="trailing" id="OVL-Xc-lHq"/>
                             <constraint firstItem="go4-kp-6H6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103.66666666666663" id="PR2-sl-Tyh"/>
-                            <constraint firstItem="Ngk-9b-DmN" firstAttribute="top" secondItem="cVI-ll-D8t" secondAttribute="bottom" constant="2" id="Sgs-5A-sfL"/>
                             <constraint firstItem="cVI-ll-D8t" firstAttribute="top" secondItem="go4-kp-6H6" secondAttribute="bottom" constant="42" id="Tj8-lV-ln0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NHw-ew-a7k" secondAttribute="trailing" constant="29" id="TlV-ag-wJp"/>
                             <constraint firstItem="cVI-ll-D8t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="VfB-Wa-jW4"/>
                             <constraint firstItem="IBY-xN-92L" firstAttribute="centerX" secondItem="cVI-ll-D8t" secondAttribute="centerX" id="Wg1-j3-Guh"/>
                             <constraint firstItem="YUh-U7-ybo" firstAttribute="centerX" secondItem="IBY-xN-92L" secondAttribute="centerX" id="Wrs-Ss-df4"/>
@@ -116,18 +104,13 @@
                             <constraint firstItem="go4-kp-6H6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cgq-Mo-qBn"/>
                             <constraint firstItem="UBi-HL-Jv2" firstAttribute="leading" secondItem="frq-hN-x9E" secondAttribute="leading" id="ff9-Vd-431"/>
                             <constraint firstItem="29g-Sl-vK7" firstAttribute="top" secondItem="IBY-xN-92L" secondAttribute="bottom" constant="46" id="guC-aq-kyd"/>
-                            <constraint firstItem="G1C-fh-WKb" firstAttribute="centerX" secondItem="NHw-ew-a7k" secondAttribute="centerX" id="iUv-B6-tx1"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="Ngk-9b-DmN" secondAttribute="bottom" constant="-16" id="lVo-oB-GGV"/>
                             <constraint firstItem="V60-gD-Aa6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="o1S-zl-Jti"/>
-                            <constraint firstItem="frq-hN-x9E" firstAttribute="trailing" secondItem="Ngk-9b-DmN" secondAttribute="trailing" id="rRJ-Si-JKR"/>
                             <constraint firstItem="go4-kp-6H6" firstAttribute="top" secondItem="G1C-fh-WKb" secondAttribute="bottom" constant="43" id="sxa-Mv-CJC"/>
                             <constraint firstItem="29g-Sl-vK7" firstAttribute="leading" secondItem="UBi-HL-Jv2" secondAttribute="trailing" constant="38" id="ugV-QG-eEv"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="NHw-ew-a7k" secondAttribute="bottom" constant="-22" id="ukc-bw-eL2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="29g-Sl-vK7" secondAttribute="trailing" constant="-56.666666666666629" id="xZX-mI-r3M"/>
                             <constraint firstItem="igm-uk-NOd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="111.66666666666669" id="xou-tp-qJy"/>
                             <constraint firstItem="UBi-HL-Jv2" firstAttribute="top" secondItem="igm-uk-NOd" secondAttribute="bottom" constant="75" id="xpO-NK-Ot4"/>
                             <constraint firstItem="IBY-xN-92L" firstAttribute="top" secondItem="YUh-U7-ybo" secondAttribute="bottom" constant="65" id="yXJ-9l-e22"/>
-                            <constraint firstItem="Ngk-9b-DmN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zfY-FP-EZ3"/>
                         </constraints>
                     </view>
                     <connections>
@@ -136,8 +119,6 @@
                         <outlet property="KostkaImage3" destination="frq-hN-x9E" id="F9a-s9-J1Z"/>
                         <outlet property="KostkaImage4" destination="G1C-fh-WKb" id="m9F-X2-U8K"/>
                         <outlet property="ileWypadlo" destination="igm-uk-NOd" id="REU-5z-1y2"/>
-                        <outlet property="jezykAngielski" destination="NHw-ew-a7k" id="gWa-lX-QL9"/>
-                        <outlet property="jezyk_Polski" destination="Ngk-9b-DmN" id="1kM-1d-B8b"/>
                         <outlet property="wynikKostek" destination="IBY-xN-92L" id="mjy-5A-EXb"/>
                     </connections>
                 </viewController>
@@ -151,10 +132,8 @@
         <image name="DiceOne" width="100" height="100"/>
         <image name="DiceThree" width="100" height="100"/>
         <image name="DiceTwo" width="100" height="100"/>
-        <image name="English" width="170.66667175292969" height="170.66667175292969"/>
         <image name="GreenBackground" width="444.66665649414062" height="414.33334350585938"/>
         <image name="PUWLOGO" width="339.66665649414062" height="39.666667938232422"/>
-        <image name="Polish" width="170.66667175292969" height="170.66667175292969"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
