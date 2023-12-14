@@ -1,5 +1,74 @@
 {
   "sourceLanguage" : "en",
-  "strings" : {},
+  "strings" : {
+    "failMessage" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You still need to learn"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Musisz się jeszcze pouczyć"
+          }
+        }
+      }
+    },
+    "ileKostki" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The dice say you have {PROCENT}% chance of passing."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kostki mówią, że masz {PROCENT} % szansy zdać."
+          }
+        }
+      }
+    },
+    "infoMessage" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remember, you have to try to pass!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pamiętaj, żeby zaliczyć musisz się postarać!"
+          }
+        }
+      }
+    },
+    "successMessage" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You probably made it"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chyba Ci się uda"
+          }
+        }
+      }
+    }
+  },
   "version" : "1.0"
 }

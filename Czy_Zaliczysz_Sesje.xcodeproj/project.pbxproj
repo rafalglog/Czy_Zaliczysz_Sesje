@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5E227712B2B10C100AB3E32 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B5E227702B2B10C100AB3E32 /* Localizable.xcstrings */; };
 		B5E236D72AF11CEF00EBF99F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E236D62AF11CEF00EBF99F /* AppDelegate.swift */; };
 		B5E236D92AF11CEF00EBF99F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E236D82AF11CEF00EBF99F /* SceneDelegate.swift */; };
 		B5E236DB2AF11CEF00EBF99F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E236DA2AF11CEF00EBF99F /* ViewController.swift */; };
@@ -36,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5E2276B2B2B0C5500AB3E32 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		B5E2276C2B2B0C5500AB3E32 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B5E2276D2B2B0C8400AB3E32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		B5E2276F2B2B0C9300AB3E32 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pl; path = pl.lproj/Info.plist; sourceTree = "<group>"; };
+		B5E227702B2B10C100AB3E32 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = Localizable.xcstrings; path = Czy_Zaliczysz_Sesje/Localizable.xcstrings; sourceTree = "<group>"; };
 		B5E236D32AF11CEF00EBF99F /* Czy_Zaliczysz_Sesje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Czy_Zaliczysz_Sesje.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E236D62AF11CEF00EBF99F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E236D82AF11CEF00EBF99F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +49,6 @@
 		B5E236DD2AF11CEF00EBF99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5E236DF2AF11CF100EBF99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5E236E22AF11CF100EBF99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B5E236E42AF11CF100EBF99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5E236E92AF11CF100EBF99F /* Czy_Zaliczysz_SesjeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Czy_Zaliczysz_SesjeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E236ED2AF11CF100EBF99F /* Czy_Zaliczysz_SesjeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Czy_Zaliczysz_SesjeTests.swift; sourceTree = "<group>"; };
 		B5E236F32AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Czy_Zaliczysz_SesjeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +84,7 @@
 		B5E236CA2AF11CEF00EBF99F = {
 			isa = PBXGroup;
 			children = (
+				B5E227702B2B10C100AB3E32 /* Localizable.xcstrings */,
 				B5E236D52AF11CEF00EBF99F /* Czy_Zaliczysz_Sesje */,
 				B5E236EC2AF11CF100EBF99F /* Czy_Zaliczysz_SesjeTests */,
 				B5E236F62AF11CF100EBF99F /* Czy_Zaliczysz_SesjeUITests */,
@@ -105,7 +111,7 @@
 				B5E236DC2AF11CEF00EBF99F /* Main.storyboard */,
 				B5E236DF2AF11CF100EBF99F /* Assets.xcassets */,
 				B5E236E12AF11CF100EBF99F /* LaunchScreen.storyboard */,
-				B5E236E42AF11CF100EBF99F /* Info.plist */,
+				B5E2276E2B2B0C8400AB3E32 /* Info.plist */,
 			);
 			path = Czy_Zaliczysz_Sesje;
 			sourceTree = "<group>";
@@ -213,6 +219,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = B5E236CA2AF11CEF00EBF99F;
 			productRefGroup = B5E236D42AF11CEF00EBF99F /* Products */;
@@ -233,6 +240,7 @@
 			files = (
 				B5E236E32AF11CF100EBF99F /* LaunchScreen.storyboard in Resources */,
 				B5E236E02AF11CF100EBF99F /* Assets.xcassets in Resources */,
+				B5E227712B2B10C100AB3E32 /* Localizable.xcstrings in Resources */,
 				B5E236DE2AF11CEF00EBF99F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,10 +305,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B5E2276E2B2B0C8400AB3E32 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E2276D2B2B0C8400AB3E32 /* en */,
+				B5E2276F2B2B0C9300AB3E32 /* pl */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 		B5E236DC2AF11CEF00EBF99F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B5E236DD2AF11CEF00EBF99F /* Base */,
+				B5E2276B2B2B0C5500AB3E32 /* pl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +327,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B5E236E22AF11CF100EBF99F /* Base */,
+				B5E2276C2B2B0C5500AB3E32 /* pl */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -321,6 +340,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -384,6 +404,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -444,7 +465,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SPRPXUAA4N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Czy_Zaliczysz_Sesje/Info.plist;
+				INFOPLIST_FILE = Czy_Zaliczysz_Sesje/pl.lproj/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Czy Zaliczysz Sesje";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -477,7 +498,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SPRPXUAA4N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Czy_Zaliczysz_Sesje/Info.plist;
+				INFOPLIST_FILE = Czy_Zaliczysz_Sesje/pl.lproj/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Czy Zaliczysz Sesje";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

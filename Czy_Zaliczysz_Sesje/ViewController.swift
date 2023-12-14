@@ -21,8 +21,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Tekst komunikatu po otwarciu aplikacji
-        let infoMessage = "Pamiętaj, żeby zaliczyć musisz się postarać!"
-        displayInformationMessage(message: infoMessage)
+        let infoMessage = NSLocalizedString("infoMessage", comment: "")
+                displayInformationMessage(message: infoMessage)
                 
         //ustawienie kostek w pozycji początkowej 6
         //przezroczystość 50%
@@ -79,11 +79,14 @@ class ViewController: UIViewController {
         //formatuj wyglad wyswietlaneg procenty bez przecinka
         let formattedProcent = Int(procent)
         //zmienna ktora wyswietla jaki wynik został wylosowany
-        let ileKostki = "Kostki mówią, że masz \(String(formattedProcent)) % szansy zdać."
+        let ileKostki = NSLocalizedString("ileKostki", comment: "")
+                    .replacingOccurrences(of: "{PROCENT}", with: String(formattedProcent))
         //wyswietlanie sformatowanej zmiennej ileKostki w elemencie UI ileWypadlo
         ileWypadlo.text = ileKostki
         //zmienna która sprawdza % i wybiera tekst do wyświetlenia
-        let textdowyswietlenia = procent >= 60  ? "Chyba Ci się uda" : "Musisz się jeszcze pouczyć"
+        let successMessage = NSLocalizedString("successMessage", comment: "")
+                let failMessage = NSLocalizedString("failMessage", comment: "")
+                let textdowyswietlenia = procent >= 60  ? successMessage : failMessage
         //wyswietlanie sformatowanej zmiennej textdowyswietlenia w elemencie UI wynikKostek
         wynikKostek.text = textdowyswietlenia
         
