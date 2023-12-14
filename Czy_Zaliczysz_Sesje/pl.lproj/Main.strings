@@ -1,15 +1,15 @@
 
 /* Class = "UILabel"; text = "Uczyłeś Się?"; ObjectID = "IBY-xN-92L"; */
-"IBY-xN-92L.text" = "Uczyłeś Się?";
+"IBY-xN-92L.text" = "Have you studied?";
 
 /* Class = "UIButton"; configuration.title = "Sprawdź czy Zaliczysz Sesje"; ObjectID = "cVI-ll-D8t"; */
-"cVI-ll-D8t.configuration.title" = "Sprawdź czy Zaliczysz Sesje";
+"cVI-ll-D8t.configuration.title" = "Check if you will pass the session";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cVI-ll-D8t"; */
-"cVI-ll-D8t.normalTitle" = "Button";
+"cVI-ll-D8t.normalTitle" = "What will the cubes tell you?";
 
 /* Class = "UILabel"; text = "Rafał Głogowski 163777"; ObjectID = "go4-kp-6H6"; */
-"go4-kp-6H6.text" = "Rafał Głogowski 163777";
+"go4-kp-6H6.text" = "Rafał Głogowski 163707";
 
 /* Class = "UILabel"; text = "Co Kostki Ci Powiedzą?"; ObjectID = "igm-uk-NOd"; */
-"igm-uk-NOd.text" = "Co Kostki Ci Powiedzą?";
+"igm-uk-NOd.text" = "What will the cubes tell you?";
